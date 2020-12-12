@@ -1,0 +1,584 @@
+/* Fonts */
+
+/*--
+Code copied from: https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp
+Author: W3Schools
+Name: W3Schools
+Description: CSS @font-face Rule
+Date retrieved: Dec. 06, 2020
+*/
+
+/*-- Copied code starts */
+
+@font-face {
+    src: url(fonts/946\ Latin\ Wide\ 4.otf);
+    font-family: Wide Latin;
+}
+
+@font-face {
+    src: url(fonts/946\ Latin\ Wide\ 3.otf);
+    font-family: Wide Latin SemiBold;
+}
+
+/*-- Copied code ends */
+
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-color: #0C0C0C;
+}
+
+a {
+    background: transparent;
+}
+
+/* Nav */
+
+.nav {
+    display: flex;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 0.75rem;
+    letter-spacing: 0.02em;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    
+}
+
+#info {
+    flex: 1;
+    text-align: right;
+}
+
+.nav a {
+    background: transparent;
+    text-decoration: none;
+    color: white;     
+}
+
+
+/* Headings */
+
+h1, h2 {
+    font-family: "Wide Latin", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background: transparent;
+    color: white;
+}
+
+h3, h4, h5, h6 {
+    font-family: "Wide Latin SemiBold", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background: transparent;
+}
+
+h1 {
+    letter-spacing: 0.04em;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h2 {
+    letter-spacing: 0.08em;
+    font-size: 1rem;
+    padding-bottom: 10px;
+    line-height: 140%;
+}
+
+h3 {
+    letter-spacing: 0.1em;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+    color: #FF0062; 
+}
+
+/* Body */
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+/* Paragraphs */
+
+p { 
+    background: transparent;
+    font-family: Helvetica, Arial, sans-serif;
+
+    font-weight: 100;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+    line-height: 146.9%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    color: white;
+
+}
+
+mark {
+    background: transparent;
+    color: #FF0062;
+}
+
+/* Buttons/Links */
+
+.button {
+    background: transparent;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 0.75rem;
+    letter-spacing: 0.02em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;  
+}
+
+.viewCaseStudy {
+    background: transparent;
+}
+
+a.link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #FF0062;
+}
+
+a:active {
+    color: #FF0062;
+}
+
+/* Cards */
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    background-color: #151515;
+}
+
+.cardDisplay {
+    position: relative;
+    width: 80%;
+    margin: 10%;
+}
+
+.cardDetails {
+    position: relative;
+    background: transparent;
+    padding-left: 10%;
+    width: 80%;
+}
+
+
+#viewCaseStudy {
+    background: transparent;
+}
+
+.buttonArrow {
+    background: transparent;
+    padding-left: 8px;
+    padding-right: 30px;
+}
+
+
+/* Misc */
+
+.selectedProjectsContainer {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 0.75rem;
+    letter-spacing: 0.02em;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.socialIcons {
+    margin-left: auto
+}
+
+li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.footer a {
+    background: transparent;
+    text-decoration: none;
+    color: white;     
+}
+
+/* Info Page */
+
+#infoTitle {
+    margin-top:40px;
+}
+
+.portrait {
+    width: 100%;
+    padding-top: 5%;
+}
+
+#resumeContainer {
+    margin-top: 30px;
+}
+
+.jobsContainer {
+    padding-bottom: 20px;
+}
+
+.infoCard {
+    position: relative;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    background-color: #151515;
+}
+
+.infoCardDetails {
+    position: relative;
+    background: transparent;
+    padding-left: 10%;
+    width: 80%;
+}
+
+/* Sociavore */
+
+.caseStudyDetails {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.caseStudySection {
+    padding-top: 5%;
+}
+
+/* Freelance */
+
+.gallery {
+    padding-top: 3%;
+}
+
+.galleryImages {
+    width: 100%;
+    position: relative;
+}
+
+/* Grid */
+
+/*--
+Code copied from: https://www.w3schools.com/cssref/css3_pr_justify-content.asp
+Author: W3Schools
+Name: W3Schools
+Description: CCSS justify-content Property
+Date retrieved: Dec. 06, 2020
+*/
+
+/*-- Took the display: flex; and justify-content information from the websites to apply to this section. The information learned from this site helped me use these 2 functions in other areas as well */
+
+.row1 {
+    display: block;
+    justify-content: space-between;
+}
+
+.row2 {
+    display: block;
+    justify-content: space-between;
+}
+
+.row3 {
+    display: block;
+    justify-content: space-between;
+}
+
+.row4 {
+    display: block;
+    justify-content: space-between;
+}
+
+.row5 {
+    display: block;
+    justify-content: space-between;
+}
+
+.row6 {
+    display: block;
+    justify-content: space-between;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 400px) {
+
+    .button {
+        display: block;
+    }
+
+    #leftButton {
+        padding-bottom: 10%;
+    }
+    
+} 
+
+@media screen and (min-width: 650px) {
+
+    .nav {
+        font-size: 0.95rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 0.95rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    .button {
+        font-size: 0.95rem;
+    }
+
+    .footer {
+        font-size: 0.95rem;
+    }
+
+    .cardDetails {
+        padding-bottom: 10px;
+    }
+
+    /* Freelance Styling */
+
+    .gallery {
+        width: 100%;
+        
+    }
+    
+} 
+
+@media screen and (min-width: 1000px) {
+    
+
+    body {
+        align-items: center;
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+        
+    }
+    .card {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .cardDisplay {
+        width: 50%;
+        margin: 5%;
+    }
+
+    .cardDetails {
+        margin-top: 5%;
+        padding-right: 80px;
+        padding-left: 0px;
+    }
+
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    /* Info Page Styling*/
+
+    .infoContainer {
+        display: flex;
+    }
+
+    #resumeContainer {
+        display: flex;
+        margin-top: 8%;
+    }
+
+    .experienceContainer {
+        margin-right: 18%;
+    }
+
+    .infoFreelanceCard {
+        width: 50%;
+        margin-left: 25px;
+    }
+
+    .infoSociavoreCard {
+        width: 50%;
+        margin-right: 25px;
+    }
+
+    /* Sociavore Styling*/
+
+    .caseStudySection {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sectionHeader {
+        width: 50%;
+        padding-top: 10px;
+    }
+
+    .sectionInfo {
+        width: 75%;
+    }
+
+    #caseStudyIntro {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    /* Freelance Styling */
+
+    .row1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row3 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row4 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row5 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row6 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    body {
+        align-items: center;
+        width: 106vh;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    #homeIntro {
+        width: 70vh;
+    }
+
+    .card {
+        display: flex;
+        justify-content: space-between;
+        width: 106vh;
+    }
+
+    .cardDisplay {
+        width: 50%;
+        margin: 8%;
+    }
+
+    .cardDetails {
+        width: 70%;
+        margin-top: 10%;
+    }
+
+    /* Info Page Styling*/
+
+    #infoIntro {
+        padding-top: 10px;
+        width: 90vh;
+    }
+
+    /* Freelance Styling */
+
+    .row1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row2 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row3 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row4 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row5 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .row6 {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,7 @@
+Vedant Patel
+
+GBDA 228 - Assignment 3
+
+I decided to make a personal portfolio website. It features all the requirements and few extra things.
+
+All the files are organized in folders in this main folder. The pages are not in a folder due to there not being too many.
