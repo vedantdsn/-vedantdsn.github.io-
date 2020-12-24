@@ -429,10 +429,10 @@ var VanillaTilt = (function () {
       extendSettings(settings) {
         let defaultSettings = {
           reverse: false,
-          max: 15,
+          max: 12,
           startX: 0,
           startY: 0,
-          perspective: 1000,
+          perspective: 5000,
           easing: "cubic-bezier(.03,.98,.52,.99)",
           scale: 1,
           speed: 5000,

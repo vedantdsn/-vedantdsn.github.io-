@@ -169,6 +169,7 @@ a:active {
     color: #FF0062;
 }
 
+
 /* Cards */
 
 .card {
@@ -204,7 +205,6 @@ a:active {
     padding-left: 8px;
     padding-right: 30px;
 }
-
 
 
 /* Misc */
@@ -420,10 +420,12 @@ Date retrieved: Dec. 06, 2020
 
     .cardDisplay {
         width: 50%;
+        height: 50%;
         margin: 5%;
     }
 
     .cardDetails {
+        display: relative;
         margin-top: 5%;
         padding-right: 80px;
         padding-left: 0px;
